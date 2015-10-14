@@ -1,0 +1,9 @@
+- content_for(:title) do
+  | restaurants
+- content_for(:id) do
+  | restaurants
+
+h1 RESTAURANTS
+.restaurants
+  .container
+    = render "restaurants_list"
